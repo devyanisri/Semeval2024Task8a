@@ -1,0 +1,63 @@
+Initial Approach:
+Adapter: (You will have to remove the current version of transformer and use older version)
+https://colab.research.google.com/drive/1aXXqBuoOESTz144-qH5As9NLnVmNjfWC
+
+Combination of Tokenizer and Models:
+1. 
+Tokeniser - bert-base-case
+Model - roberta 
+
+2.
+Model -roberta
+Tokeniser - roberta
+
+3.
+Tokeniser-distillbert
+Model-distillbert
+Link: https://colab.research.google.com/drive/1jidgCwKOTZ1gMLfTTVClbn31lFyryVIr?usp=sharing
+
+4.
+Tokeniser - deberta
+Model - deberta
+Link: 
+
+5.
+Tokeniser - dberta 
+Model - roberta 
+Link: https://colab.research.google.com/drive/1AbEtbnS2kAxB7JeLmw9GYAtxLlVbylsx
+6.
+Tokeniser - roberta
+Model - dberta 
+Link: https://colab.research.google.com/drive/1YmatJMAFIviRKaELLI-5ENPccM1MmoJl#scrollTo=o6e0yuTM9krz
+
+7.
+Tokeniser:albert
+Model:albert
+Link: https://colab.research.google.com/drive/1G71XvEQ_jpRiDY_gaBSp9g9Uqe7j4do5?usp=sharing
+
+Tokenizer: dberta 
+Model Roberta
+-------------------------
+Hyperparameter Tunning:
+
+hidden_size=500, num_hidden_layers = 11, num_attention_heads=10, hidden_act='relu',
+hidden_dropout_prob= 0.2, attention_probs_dropout_prob=0.2, ignore_mismatched_sizes=True
+Link: https://colab.research.google.com/drive/1IcFXq_9_K2rpapX2k8b2Dnfx_xx9Z3fb?usp=sharing
+
+hidden_size=1000, num_hidden_layers = 15, num_attention_heads=10, hidden_act='relu',
+hidden_dropout_prob= 0.2, attention_probs_dropout_prob=0.2, ignore_mismatched_sizes=True
+Link: https://colab.research.google.com/drive/1Vo0BjX-5gYb1lfcUem7nz6EPx0FjxaNL?usp=sharing
+
+hidden_size=780, num_hidden_layers = 15, num_attention_heads=12, hidden_act='gelu',
+hidden_dropout_prob= 0.2, attention_probs_dropout_prob=0.2, ignore_mismatched_sizes=True
+Link: https://colab.research.google.com/drive/1Bkz2VTbhVBxI6x-viNRt6wyQ2uCY2OEz#scrollTo=o6e0yuTM9krz
+
+hidden_size=896, num_hidden_layers = 15, num_attention_heads=14, hidden_act='gelu',
+hidden_dropout_prob= 0.2, attention_probs_dropout_prob=0.2, ignore_mismatched_sizes=True
+Link: https://colab.research.google.com/drive/1bjO6AhGVH9CU4MPpZtgavjP6ZWPRb5KQ#scrollTo=o6e0yuTM9krz
+
+hidden_size=896, num_hidden_layers = 15, num_attention_heads=14, hidden_act='sigmoid',
+hidden_dropout_prob= 0.2, attention_probs_dropout_prob=0.2, ignore_mismatched_sizes=True
+Link: https://colab.research.google.com/drive/1OQgpyLHhcI8DChN-aroQdBYFQyM3G_5q?authuser=1#scrollTo=o6e0yuTM9krz
+
+
