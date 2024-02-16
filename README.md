@@ -18,7 +18,7 @@ The dataset consists of 119,757 rows, providing a rich and diverse range of text
 
 ## Results
 
-Our findings are presented through comprehensive analysis and comparative assessments of performance across models. The document includes tables and figures that detail model performance metrics, hyperparameters, and the distribution of training data.
+Our findings are presented through comprehensive analysis and comparative assessments of performance across models. The document (https://github.com/devyanisri/Semeval2024Task8a/blob/main/SemEval_2024Task8a.pdf) includes tables and figures that detail model performance metrics, hyperparameters, and the distribution of training data.
 
 ## Conclusion
 
